@@ -1,5 +1,6 @@
 ```
 #!/usr/bin/env sh
+# Portable user creation script for Linux systems (works with sh, bash, zsh)
 
 # Check if running under bash for pipefail support
 if [ -n "$BASH_VERSION" ]; then
